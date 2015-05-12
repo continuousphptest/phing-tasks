@@ -108,6 +108,9 @@ class TaskContext implements Context, SnippetAcceptingContext
      */
     public function isValidDownloadUrl()
     {
+
+
+
         throw new \Exception('FAIL FAIL FAIL');
 
         $regex = "/---PACKAGE_URL:(.*)---/";
